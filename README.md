@@ -20,6 +20,9 @@ Celebal-Internship/
 
 ## 🛠️ Technologies & Tools
 
+* Python
+* Pandas
+* Jupyter Notebook
 * SQL
 * MySQL Workbench
 * Git
