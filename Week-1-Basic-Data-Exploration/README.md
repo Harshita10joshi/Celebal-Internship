@@ -1,22 +1,49 @@
-# Week 1 - Basic Data Exploration
+# 📊 Week 1 - Basic Data Exploration and Cleaning
 
-## Objective
+## 📌 Objective
 
-Perform basic data exploration to understand the dataset by examining its structure, identifying data types, checking for missing values, and generating summary statistics.
+The objective of this assignment was to explore and clean a shopping dataset using Python and Pandas. The task involved understanding the dataset, checking its quality, performing basic filtering operations, and preparing it for further data analysis.
 
-## Tools Used
+## 🛠️ Tools & Technologies
 
-- SQL
-- MySQL Workbench
+* Python
+* Pandas
+* Jupyter Notebook
+* Git & GitHub
 
-## Tasks Performed
+## 📂 Dataset
 
-- Imported the dataset into MySQL.
-- Explored the table structure.
-- Viewed sample records.
-- Checked data types.
-- Performed basic data exploration queries.
+**Customer Shopping Dataset**
 
-## Outcome
+## ✅ Tasks Performed
 
-Successfully explored the dataset and gained an understanding of its structure for further analysis.
+* Loaded the dataset using Pandas.
+* Explored the dataset using `head()`, `tail()`, `shape`, `columns`, `info()`, and `dtypes`.
+* Checked for missing values.
+* Filtered data based on conditions (e.g., Gender and Purchase Amount).
+* Checked for duplicate records and verified data quality.
+* Created new columns (`Quantity` and `Total_Amount`) for analysis.
+* Saved the cleaned dataset as a new CSV file.
+
+## 📚 Key Concepts Practiced
+
+* Data Loading
+* Data Exploration
+* Data Cleaning
+* Data Filtering
+* Duplicate Detection
+* Feature Creation
+* Exporting Cleaned Data
+
+## 📁 Files Included
+
+* `Basic_Data_Exploration_and_Cleaning.ipynb`
+* `cleaned_shopping_dataset.csv`
+
+## 🎯 Learning Outcome
+
+This assignment strengthened my understanding of data exploration and preprocessing using Pandas. I learned how to inspect a dataset, validate its quality, apply filtering techniques, create derived features, and prepare clean data for future analysis.
+
+---
+
+**Status:** ✅ Completed
