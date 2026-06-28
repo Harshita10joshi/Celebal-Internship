@@ -1,61 +1,104 @@
 # 🚀 Celebal Technologies Internship
 
-Welcome to my **Celebal Technologies Internship** repository! This repository contains all the weekly assignments, projects, and learning tasks completed during my internship.
+Welcome to my internship repository! This repository contains all the weekly assignments completed during my **Celebal Technologies Internship**, showcasing practical implementations in **Data Analytics, SQL, and Python**.
 
-## 📌 About
-
-This repository showcases my hands-on work in **Data Analytics and SQL**, completed as part of the Celebal Technologies Internship Program. Each week's assignment is organized into a separate folder for easy navigation and tracking of progress.
+---
 
 ## 📂 Repository Structure
 
 ```text
 Celebal-Internship/
 │
-├── Week-1-Basic-Data-Exploration/
-├── Week-2-SQL-Sales-Analysis/
-├── Week-3/
-├── Week-4/
-└── ...
+├── shopping-analysis/
+│   ├── data/
+│   │   └── combined_dataset.csv
+│   ├── notebook/
+│   │   └── analysis.ipynb
+│   └── README.md
+│
+├── sql-assignment/
+│   ├── Section_A/
+│   │   └── basic_queries.sql
+│   ├── Section_B/
+│   │   └── filtering_queries.sql
+│   ├── Section_C/
+│   │   └── aggregation_queries.sql
+│   ├── Section_D/
+│   │   └── joins_queries.sql
+│   ├── Section_E/
+│   │   └── advanced_queries.sql
+│   ├── database_setup.sql
+│   └── README.md
+│
+└── README.md
 ```
 
-## 🛠️ Technologies & Tools
-
-* Python
-* Pandas
-* Jupyter Notebook
-* SQL
-* MySQL Workbench
-* Git
-* GitHub
+---
 
 ## 📅 Weekly Assignments
 
-| Week   | Assignment               | Status      |
-| ------ | ------------------------ | ----------- |
-| Week 1 | Basic Data Exploration   | ✅ Completed |
-| Week 2 | SQL-Based Sales Analysis | ✅ Completed |
-| Week 3 | Coming Soon              | ⏳           |
-| Week 4 | Coming Soon              | ⏳           |
+### 📊 Week 1 – Shopping Data Analysis
+
+✔ Data Cleaning
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ Data Visualization
+
+✔ Business Insights
+
+✔ Jupyter Notebook Implementation
+
+---
+
+### 🗄️ Week 2 – SQL Assignment
+
+✔ Database Design
+
+✔ Table Creation
+
+✔ Constraints & Indexing
+
+✔ Filtering Queries
+
+✔ Aggregation
+
+✔ Joins
+
+✔ CASE Statements
+
+✔ Transactions
+
+✔ ACID Properties
+
+---
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🗄️ MySQL
+* 📓 Jupyter Notebook
+* 🐼 Pandas
+* 📈 Matplotlib
+
+---
 
 ## 🎯 Learning Outcomes
 
-Throughout this internship, I aim to strengthen my skills in:
-
+* Database Design
 * SQL Query Writing
-* Data Exploration & Cleaning
 * Data Analysis
-* Business Insights Generation
-* Git & GitHub Version Control
-* Problem Solving
+* Exploratory Data Analysis
+* Data Visualization
+* Relational Database Concepts
+
+---
 
 ## 👩‍💻 Author
 
 **Harshita Joshi**
 
-B.Tech Computer Science Engineering (AI, ML & Robotics)
+B.Tech Computer Science Engineering
 
-Passionate about Data Analytics, SQL, Java, and Machine Learning.
+AI • Data Analytics • SQL • Machine Learning
 
----
-
-⭐ Thank you for visiting this repository!
