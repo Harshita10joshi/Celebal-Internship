@@ -1,48 +1,69 @@
-# 📊 Week 1 - Basic Data Exploration and Cleaning
+# 📊 Week 1 – Shopping Data Analysis
 
-## 📌 Objective
+## 🎯 Objective
 
-The objective of this assignment was to explore and clean a shopping dataset using Python and Pandas. The task involved understanding the dataset, checking its quality, performing basic filtering operations, and preparing it for further data analysis.
+Analyze shopping data using **Python** and perform **Exploratory Data Analysis (EDA)** to generate meaningful business insights.
 
-## 🛠️ Tools & Technologies
+---
 
-* Python
-* Pandas
-* Jupyter Notebook
-* Git & GitHub
+## 📂 Folder Structure
 
-## 📂 Dataset
+```text
+shopping-analysis/
+│
+├── data/
+│   └── combined_dataset.csv
+│
+├── notebook/
+│   └── analysis.ipynb
+│
+└── README.md
+```
 
-**Customer Shopping Dataset**
+---
 
-## ✅ Tasks Performed
+## ⚙️ Project Workflow
 
-* Loaded the dataset using Pandas.
-* Explored the dataset using `head()`, `tail()`, `shape`, `columns`, `info()`, and `dtypes`.
-* Checked for missing values.
-* Filtered data based on conditions (e.g., Gender and Purchase Amount).
-* Checked for duplicate records and verified data quality.
-* Created new columns (`Quantity` and `Total_Amount`) for analysis.
-* Saved the cleaned dataset as a new CSV file.
+📥 Import Dataset
 
-## 📚 Key Concepts Practiced
+🧹 Data Cleaning
 
-* Data Loading
-* Data Exploration
-* Data Cleaning
-* Data Filtering
-* Duplicate Detection
-* Feature Creation
-* Exporting Cleaned Data
+🔍 Handle Missing Values
 
-## 📁 Files Included
+📊 Exploratory Data Analysis
 
-* `Basic_Data_Exploration_and_Cleaning.ipynb`
-* `cleaned_shopping_dataset.csv`
+📈 Data Visualization
 
-## 🎯 Learning Outcome
+💡 Business Insights
 
-This assignment strengthened my understanding of data exploration and preprocessing using Pandas. I learned how to inspect a dataset, validate its quality, apply filtering techniques, create derived features, and prepare clean data for future analysis.
+---
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🐼 Pandas
+* 🔢 NumPy
+* 📈 Matplotlib
+* 📓 Jupyter Notebook
+
+---
+
+## 📁 Project Files
+
+### 📂 data/
+
+Contains the shopping dataset used for analysis.
+
+### 📂 notebook/
+
+Contains the complete Jupyter Notebook with preprocessing, visualizations, and business insights.
+
+---
+
+## ✅ Outcome
+
+This project demonstrates practical data analysis skills using Python to extract valuable insights from shopping data.
+rived features, and prepare clean data for future analysis.
 
 ---
 
