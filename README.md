@@ -101,4 +101,3 @@ Celebal-Internship/
 B.Tech Computer Science Engineering
 
 AI • Data Analytics • SQL • Machine Learning
-
