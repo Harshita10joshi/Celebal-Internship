@@ -30,11 +30,11 @@ Celebal-Internship/
 
 ## 📅 Weekly Assignments
 
-| Week   | Assignment               | Status      |
-| ------ | ------------------------ | ----------- |
+| Week   | Assignment               | Status       |
+| ------ | ------------------------ | -----------  |
 | Week 1 | Basic Data Exploration   | ✅ Completed |
 | Week 2 | SQL-Based Sales Analysis | ✅ Completed |
-| Week 3 | Coming Soon              | ⏳           |
+| Week 3 | Coming Soon              | ✅ Completed |
 | Week 4 | Coming Soon              | ⏳           |
 
 ## 🎯 Learning Outcomes
