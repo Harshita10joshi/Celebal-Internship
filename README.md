@@ -1,110 +1,61 @@
-# Week 3 - SQL Sales Data Analysis using Subqueries, CTEs, and Window Functions
+# 🚀 Celebal Technologies Internship
 
-## Project Overview
+Welcome to my **Celebal Technologies Internship** repository! This repository contains all the weekly assignments, projects, and learning tasks completed during my internship.
 
-This project analyzes the Superstore sales dataset using advanced SQL concepts. The dataset was imported into MySQL, normalized into separate tables, and analyzed to solve different business-related problems using Subqueries, Common Table Expressions (CTEs), Window Functions, and JOIN operations.
+## 📌 About
 
----
+This repository showcases my hands-on work in **Data Analytics and SQL**, completed as part of the Celebal Technologies Internship Program. Each week's assignment is organized into a separate folder for easy navigation and tracking of progress.
 
-## Objective
+## 📂 Repository Structure
 
-- Import the Superstore dataset into MySQL.
-- Create normalized tables: Customers, Products, and Orders.
-- Perform sales analysis using SQL.
-- Apply Subqueries, CTEs, Window Functions, and JOINs.
-- Generate meaningful business insights from the sales data.
-
----
-
-## Dataset
-
-- **Dataset Name:** Sample Superstore Dataset
-- **Source:** Kaggle
-- **Database:** MySQL
-- **Raw Table:** `superstore_raw`
-
----
-
-## Database Tables
-
-The dataset was divided into the following tables:
-
-- **customers**
-- **products**
-- **orders**
-
----
-
-## SQL Concepts Used
-
-- SELECT Statements
-- Aggregate Functions (`SUM`, `AVG`, `MAX`)
-- GROUP BY
-- HAVING
-- Subqueries
-- Common Table Expressions (CTEs)
-- Window Functions
-  - ROW_NUMBER()
-  - RANK()
-- INNER JOIN
-- Date Conversion using `STR_TO_DATE()`
-
----
-
-## Business Problems Solved
-
-- Find orders with sales above the average sales.
-- Find the highest-value order for each customer.
-- Calculate total sales for each customer using CTE.
-- Display customer names with their total sales.
-- Rank customers based on total sales.
-- Identify the top-performing customers.
-- Find customers who placed only one order.
-- Find customers whose total sales are above the average customer sales.
-
----
-
-## Key Insights
-
-- Successfully normalized the raw dataset into relational tables.
-- Used Subqueries to identify above-average sales.
-- Applied CTEs to simplify customer-wise sales aggregation.
-- Used Window Functions to rank customers based on sales performance.
-- Combined JOIN, CTE, and Window Functions to generate meaningful business reports.
-
----
-
-## Technologies Used
-
-- MySQL Workbench
-- SQL
-- Kaggle Superstore Dataset
-
----
-
-## Project Files
-
-```
-Week-3/
-│── README.md
-│── week3_sales_analysis.sql
-│── screenshots/
+```text
+Celebal-Internship/
+│
+├── Week-1-Basic-Data-Exploration/
+├── Week-2-SQL-Sales-Analysis/
+├── Week-3/
+├── Week-4/
+└── ...
 ```
 
+## 🛠️ Technologies & Tools
+
+* Python
+* Pandas
+* Jupyter Notebook
+* SQL
+* MySQL Workbench
+* Git
+* GitHub
+
+## 📅 Weekly Assignments
+
+| Week   | Assignment               | Status      |
+| ------ | ------------------------ | ----------- |
+| Week 1 | Basic Data Exploration   | ✅ Completed |
+| Week 2 | SQL-Based Sales Analysis | ✅ Completed |
+| Week 3 | Coming Soon              | ⏳           |
+| Week 4 | Coming Soon              | ⏳           |
+
+## 🎯 Learning Outcomes
+
+Throughout this internship, I aim to strengthen my skills in:
+
+* SQL Query Writing
+* Data Exploration & Cleaning
+* Data Analysis
+* Business Insights Generation
+* Git & GitHub Version Control
+* Problem Solving
+
+## 👩‍💻 Author
+
+**Harshita Joshi**
+
+B.Tech Computer Science Engineering (AI, ML & Robotics)
+
+Passionate about Data Analytics, SQL, Java, and Machine Learning.
+
 ---
 
-## Learning Outcomes
-
-Through this project, I learned how to:
-
-- Import and normalize raw datasets.
-- Use Subqueries for analytical queries.
-- Apply CTEs to simplify complex SQL queries.
-- Use Window Functions for ranking and reporting.
-- Solve real-world business problems using SQL.
-
----
-
-## Conclusion
-
-This project demonstrates how advanced SQL techniques can be used to analyze sales data and generate valuable business insights. It strengthened my understanding of SQL querying, data analysis, and database management.
+⭐ Thank you for visiting this repository!
