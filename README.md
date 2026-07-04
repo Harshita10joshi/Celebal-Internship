@@ -1,103 +1,110 @@
-# 🚀 Celebal Technologies Internship
+# Week 3 - SQL Sales Data Analysis using Subqueries, CTEs, and Window Functions
 
-Welcome to my internship repository! This repository contains all the weekly assignments completed during my **Celebal Technologies Internship**, showcasing practical implementations in **Data Analytics, SQL, and Python**.
+## Project Overview
+
+This project analyzes the Superstore sales dataset using advanced SQL concepts. The dataset was imported into MySQL, normalized into separate tables, and analyzed to solve different business-related problems using Subqueries, Common Table Expressions (CTEs), Window Functions, and JOIN operations.
 
 ---
 
-## 📂 Repository Structure
+## Objective
 
-```text
-Celebal-Internship/
-│
-├── shopping-analysis/
-│   ├── data/
-│   │   └── combined_dataset.csv
-│   ├── notebook/
-│   │   └── analysis.ipynb
-│   └── README.md
-│
-├── sql-assignment/
-│   ├── Section_A/
-│   │   └── basic_queries.sql
-│   ├── Section_B/
-│   │   └── filtering_queries.sql
-│   ├── Section_C/
-│   │   └── aggregation_queries.sql
-│   ├── Section_D/
-│   │   └── joins_queries.sql
-│   ├── Section_E/
-│   │   └── advanced_queries.sql
-│   ├── database_setup.sql
-│   └── README.md
-│
-└── README.md
+- Import the Superstore dataset into MySQL.
+- Create normalized tables: Customers, Products, and Orders.
+- Perform sales analysis using SQL.
+- Apply Subqueries, CTEs, Window Functions, and JOINs.
+- Generate meaningful business insights from the sales data.
+
+---
+
+## Dataset
+
+- **Dataset Name:** Sample Superstore Dataset
+- **Source:** Kaggle
+- **Database:** MySQL
+- **Raw Table:** `superstore_raw`
+
+---
+
+## Database Tables
+
+The dataset was divided into the following tables:
+
+- **customers**
+- **products**
+- **orders**
+
+---
+
+## SQL Concepts Used
+
+- SELECT Statements
+- Aggregate Functions (`SUM`, `AVG`, `MAX`)
+- GROUP BY
+- HAVING
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+  - ROW_NUMBER()
+  - RANK()
+- INNER JOIN
+- Date Conversion using `STR_TO_DATE()`
+
+---
+
+## Business Problems Solved
+
+- Find orders with sales above the average sales.
+- Find the highest-value order for each customer.
+- Calculate total sales for each customer using CTE.
+- Display customer names with their total sales.
+- Rank customers based on total sales.
+- Identify the top-performing customers.
+- Find customers who placed only one order.
+- Find customers whose total sales are above the average customer sales.
+
+---
+
+## Key Insights
+
+- Successfully normalized the raw dataset into relational tables.
+- Used Subqueries to identify above-average sales.
+- Applied CTEs to simplify customer-wise sales aggregation.
+- Used Window Functions to rank customers based on sales performance.
+- Combined JOIN, CTE, and Window Functions to generate meaningful business reports.
+
+---
+
+## Technologies Used
+
+- MySQL Workbench
+- SQL
+- Kaggle Superstore Dataset
+
+---
+
+## Project Files
+
+```
+Week-3/
+│── README.md
+│── week3_sales_analysis.sql
+│── screenshots/
 ```
 
 ---
 
-## 📅 Weekly Assignments
+## Learning Outcomes
 
-### 📊 Week 1 – Shopping Data Analysis
+Through this project, I learned how to:
 
-✔ Data Cleaning
-
-✔ Exploratory Data Analysis (EDA)
-
-✔ Data Visualization
-
-✔ Business Insights
-
-✔ Jupyter Notebook Implementation
+- Import and normalize raw datasets.
+- Use Subqueries for analytical queries.
+- Apply CTEs to simplify complex SQL queries.
+- Use Window Functions for ranking and reporting.
+- Solve real-world business problems using SQL.
 
 ---
 
-### 🗄️ Week 2 – SQL Assignment
+## Conclusion
 
-✔ Database Design
-
-✔ Table Creation
-
-✔ Constraints & Indexing
-
-✔ Filtering Queries
-
-✔ Aggregation
-
-✔ Joins
-
-✔ CASE Statements
-
-✔ Transactions
-
-✔ ACID Properties
-
----
-
-## 🛠️ Technologies Used
-
-* 🐍 Python
-* 🗄️ MySQL
-* 📓 Jupyter Notebook
-* 🐼 Pandas
-* 📈 Matplotlib
-
----
-
-## 🎯 Learning Outcomes
-
-* Database Design
-* SQL Query Writing
-* Data Analysis
-* Exploratory Data Analysis
-* Data Visualization
-* Relational Database Concepts
-
----
-
-## 👩‍💻 Author
-
-**Harshita Joshi**
-
-B.Tech Computer Science Engineering
-
-AI • Data Analytics • SQL • Machine Learning
+This project demonstrates how advanced SQL techniques can be used to analyze sales data and generate valuable business insights. It strengthened my understanding of SQL querying, data analysis, and database management.
