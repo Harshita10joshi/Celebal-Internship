@@ -13,7 +13,7 @@ Celebal-Internship/
 │
 ├── Week-1-Basic-Data-Exploration/
 ├── Week-2-SQL-Sales-Analysis/
-├── Week-3/
+├── Week-3-Subqueries, CTEs, and Window Functions
 ├── Week-4/
 └── ...
 ```
@@ -34,7 +34,7 @@ Celebal-Internship/
 | ------ | ------------------------ | -----------  |
 | Week 1 | Basic Data Exploration   | ✅ Completed |
 | Week 2 | SQL-Based Sales Analysis | ✅ Completed |
-| Week 3 | Coming Soon              | ✅ Completed |
+| Week 3 | Subqueries, CTEs, and Window Functions | ✅ Completed |
 | Week 4 | Coming Soon              | ⏳           |
 
 ## 🎯 Learning Outcomes
