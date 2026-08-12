@@ -1,0 +1,10 @@
+{
+  "project": "Healthcare Data Pipeline",
+  "source_rows": 55500,
+  "source_columns": 15,
+  "duplicate_rows": 534,
+  "null_cells": 0,
+  "silver_rows_after_exact_dedup": 54966,
+  "hospitals": 39876,
+  "doctors": 40341
+}
